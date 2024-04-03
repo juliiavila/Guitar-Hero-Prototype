@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Hero Prototype</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <button id="startButton">Iniciar Juego</button>
+    <button id="pauseButton">Pausar Juego</button>
+    <div class="score-container">
+        <div class="score-text">Score</div>
+        <div class="score-value"></div>
+    </div>
+
+    <div class="contenedor">        
+        <div class="linea-vertical"></div>
+        <div class="circulo verde"></div>        
+    </div>
+    <div class="contenedor">
+        <div class="linea-vertical"></div>
+        <div class="circulo rojo"></div>        
+    </div>
+    <div class="contenedor">
+        <div class="linea-vertical"></div>
+        <div class="circulo amarillo"></div>        
+    </div>
+    <div class="contenedor">
+        <div class="linea-vertical"></div>
+        <div class="circulo azul"></div>
+    </div>
+    <div id="mensajeVictoria" class="mensaje-victoria">
+        <h2>¡Felicitaciones!</h2>
+        <p>Has alcanzado el puntaje máximo!. Te tomó <span id="tiempoFinal"></span> segundos.</p>
+    </div>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
